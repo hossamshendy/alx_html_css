@@ -1,31 +1,51 @@
-/* Base styles for desktop and larger screens */
+/* General styling */
 body {
   display: flex;
   flex-direction: column;
   height: 100vh; /* Ensure the body takes the full height of the viewport */
   margin: 0; /* Remove default margin */
-}
-
-main {
-  display: flex;
-  flex-direction: row;
-  flex: auto; /* Ensure main takes up remaining space */
-}
-
-article {
-  flex: 2;
-  overflow-y: auto; /* Enable vertical scrolling */
-}
-
-aside {
-  flex: 1;
-  overflow-y: auto; /* Enable vertical scrolling */
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9; /* Light background color */
 }
 
 header, footer {
   flex: none; /* Ensure header and footer do not grow or shrink */
   padding: 10px; /* Add some padding for visual spacing */
-  background-color: #f1f1f1; /* Light grey background for visibility */
+  background-color: #333; /* Dark background for header and footer */
+  color: #fff; /* White text color */
+  text-align: center;
+}
+
+header .logo {
+  font-size: 24px; /* Make the logo bigger */
+  margin-right: 10px; /* Add space between logo and text */
+  vertical-align: middle; /* Align the logo with text */
+}
+
+/* Flexbox layout for main content */
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto; /* Ensure main takes up remaining space */
+  padding: 10px;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  background-color: #fff; /* White background for article */
+  border: 1px solid #ddd; /* Light border around article */
+  border-radius: 8px; /* Rounded corners */
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  background-color: #f1f1f1; /* Light grey background for aside */
+  border: 1px solid #ddd; /* Light border around aside */
+  border-radius: 8px; /* Rounded corners */
 }
 
 /* Responsive styles for smaller screens */
