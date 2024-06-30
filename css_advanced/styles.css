@@ -1,1 +1,322 @@
 
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("fonts/SourceSansPro-Regular.otf");
+}
+
+* {
+  font-family: SourceSansPro;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1103.41px;
+  margin: auto;
+}
+
+header {
+  background-image: url(images/Object.png);
+  background-size: cover;
+}
+header nav {
+  padding-top: 35.02px;
+  padding-left: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav img {
+  flex-grow: 0;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 40px;
+}
+/* ============= */
+header section.one div {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+header section.one div h1 {
+  font-weight: 700;
+  font-size: 120px;
+  line-height: 150.84px;
+  color: #ffffff;
+  text-align: center;
+  width: 100%;
+}
+header section.one div .spans {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 20.11px;
+  width: 100%;
+  margin-top: -100px;
+}
+header section.one div .spans span {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+header section.one div button {
+  color: white;
+  width: 162px;
+  height: 44px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #c271ff;
+  margin-top: -50px;
+}
+header .one .second h2 {
+  font-weight: 300;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: 90px;
+}
+header .one .second .learn {
+  font-weight: 700;
+  color: #c271ff;
+}
+header .one .second .profiles {
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+header .one .second .profiles div {
+  display: flex;
+  width: 25%;
+}
+header .one .second .profiles div img {
+  padding-left: 25%;
+}
+header .one .second .profiles div h3 {
+  color: #ffffff;
+  font-weight: 900;
+  size: 18px;
+  line-height: 27px;
+  text-align: center;
+  padding-left: 25%;
+}
+header .one .second .profiles div p {
+  color: #ffffff;
+  font-weight: 400;
+  size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-style: italic;
+  text-wrap: wrap;
+  padding-left: 25%;
+}
+/* start section two  */
+.two {
+  background-color: #c271ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.two .container {
+  display: flex;
+}
+.two .image {
+  width: 50%;
+  padding-left: 120px;
+}
+.two .name {
+  color: #ffffff;
+  width: 175%;
+  padding-right: 100px;
+}
+.two .name blockquote {
+  font-weight: 400;
+  font-size: 22px;
+}
+.two .name h3 {
+  font-size: 22px;
+  padding-left: 50px;
+}
+.two .name p {
+  padding-left: 50px;
+}
+/* end section two  */
+/* start section three */
+.three {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.three .head {
+  font-weight: 300;
+  text-align: center;
+  font-size: 32px;
+}
+.three .head .popular {
+  color: #c271ff;
+  font-weight: 700;
+}
+.three .cards {
+  display: flex;
+  padding-top: 40px;
+}
+.three .cards .defin .shape {
+  position: relative;
+}
+.three .cards .defin .shape .play {
+  position: absolute;
+  top: 50%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+}
+.three .cards .defin h3 {
+  font-weight: 700;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.three .cards .defin p.comment {
+  color: rgba(7, 22, 41, 0.5);
+  padding-left: 10px;
+}
+.three .cards .defin .rating {
+  display: flex;
+}
+.three .cards .defin .rating img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.three .cards .defin .rating h4 {
+  color: rgba(194, 113, 255, 1);
+  font-weight: 600;
+  font-size: 14px;
+  margin-left: 15px;
+  line-height: 0px;
+}
+.three .cards .defin .stars {
+  display: flex;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.three .cards .defin .stars i {
+  margin-top: 8px;
+}
+.three .cards .defin .stars i.color {
+  color: #c271ff;
+  padding-right: 5px;
+}
+.three .cards .defin .stars .last {
+  color: rgba(216, 216, 216, 1);
+}
+.three .cards .defin .stars p {
+  line-height: 0px;
+  color: #c271ff;
+  margin-left: 85px;
+}
+/* end section three */
+/* start section four */
+.four {
+  background-color: #071629;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.four h2 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: lighter;
+  font-size: 32px;
+}
+.four h2 .free {
+  color: #c271ff;
+  font-weight: 700;
+}
+.four .cards {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+}
+.four .cards img {
+  margin-left: 43%;
+}
+.four .cards h3 {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.four .cards p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: lighter;
+  color: #ffffff;
+  width: 212px;
+}
+.four button {
+  color: white;
+  width: 162px;
+  height: 44px;
+  border-radius: 20px;
+  border-color: transparent;
+  background-color: #c271ff;
+  margin-top: 100px;
+  margin-left: calc(50% - (162px / 2));
+}
+/* end section four */
+/* start section five */
+.five {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.five h2 {
+  text-align: center;
+  font-weight: lighter;
+  font-size: 60px;
+}
+.five .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.five .cards .left {
+  margin-left: 160px;
+}
+.five .cards .card {
+  margin-right: 100px;
+  margin-bottom: 75px;
+}
+.five .cards .card h3 {
+  color: #071629;
+  font-size: 16px;
+  font-weight: 700;
+}
+.five .cards .card .p {
+  color: rgba(7, 22, 41, 0.5);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* end section five */
+/* start footer */
+footer {
+  background-color: #071629;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+footer section .foot {
+  display: flex;
+  justify-content: space-between;
+}
+footer section .foot i {
+  color: #ffffff;
+  margin-right: 20px;
+  width: 30px;
+  height: 30px;
+}
+footer section p {
+  color: rgba(255, 255, 255, 1);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 30px;
+}
+/* end footer */
